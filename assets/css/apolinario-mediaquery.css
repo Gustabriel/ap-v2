@@ -1,0 +1,370 @@
+@media (max-width: 1610px) {
+   /* diminuida a porcentagem das medidas da page */
+   html {font-size: 50%;}
+   /* ------------------------ HOME ------------------------ */
+   .home .hero { margin-top: 12rem; }
+
+   /* ------------------------ ABOUT ------------------------ */
+   
+   /* ------------------------ SERVICE ------------------------ */
+   .container-service { padding-top: 2.0rem; }
+}
+
+@media (max-width:1310px) {
+   /* diminuida a porcentagem das medidas da page */
+   html {font-size: 45%;}
+   /* ------------------------ HOME ------------------------ */
+   .nav ul li a { font-size: 1.9rem; }
+
+   /* ------------------------ ABOUT ------------------------ */
+   .about {
+      min-height: 0;
+      height: auto;
+      margin: 50px 0;
+   }
+   
+   .about #box-about { width: 115rem; }
+   .about #box-about p { font-size: 120%; text-align: justify; }
+   .logo-about img { width: 150px; }
+
+   /* ------------------------ SERVICE ------------------------ */
+   .cards-description-service, .cards-descriptio-diff { font-size: 2.2rem; }
+   .service h2, .diff h2 {
+      /* alterações nos titulos do service e do diferenciais */
+      width: auto;
+      padding: 20px 0 0 75px;
+      font-size: 40px;
+   }
+}
+
+@media (max-width:955px) {
+   html {font-size: 30%;}
+   body {overflow-x: hidden; background: none;}
+   
+   /* ------------------------ HOME ------------------------ */
+   .header-home { flex-flow: row-reverse; }
+   .hero {
+      margin-top: 10em;
+   }
+
+   .contato {
+      display: inline;
+   }
+   
+   #btn-contato {
+      display: none;
+   }
+   .logo {
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+      margin-right: 3.0rem;
+      align-items: center;
+   }
+
+   .description {
+      font-size: 160%;
+   }
+
+   .btn-now {
+      width: 55rem;
+      height: 12rem;
+      margin-top: 25rem;
+      font-size: 180%;
+   }
+
+/* ------------------------ ABOUT ------------------------ */
+   .about { padding-bottom: 0; }
+   .about h2 {
+      display: flex;
+      align-items: flex-start;
+      width: auto;
+      font-size: 40px;
+      }
+
+   .about #box-about {
+      width: 80vw;
+      height: auto;
+      margin: 0 auto;
+      padding: 0 auto;
+      box-shadow: 0px 0px 6.0rem#0000004D;
+   }
+
+   .about #box-about p {
+      font-size: 3.0rem;
+      line-height: 4rem
+   }
+
+/* ------------------------ SERVICE/DIFERENCIAIS ------------------------ */
+.diff {
+   min-height: 0;
+   height: auto;
+   margin-bottom: 80px;
+}
+   .cards-service, .cards-diff { flex-direction: column; }
+   .card-service{ margin-right: 0; }
+   .card-service, .card-diff  {
+      width: 70%;
+      height: auto;
+      padding-bottom: 10rem;
+      margin-left: 0;
+      margin-bottom: 6rem;
+   }
+
+   .card-diff {
+      width: 75%;
+      height: 95.0rem; 
+   }
+
+   section.card-service h3, section.card-diff h3 {
+      width: auto;
+      font-size: 6rem;
+      padding-top: 12rem;
+   }
+
+   section.card-service h3 {
+      width: auto;
+      padding-right: 5rem;
+      padding-left: 5rem;
+   }
+ 
+
+   .cards-description-service, .cards-description-diff {
+      width: 80%;
+      height: 100%;
+      margin-top: 4%;
+      font-size: 4rem;
+      line-height: 6.0rem;
+   } 
+
+   .service h2 {
+      width: auto;
+      padding-top: 0;
+   }
+
+   section.card-diff h3 {
+      padding-right: 15rem;
+      padding-left: 15rem;
+   }
+
+/* ------------------------ CONTACT ------------------------ */
+   .container-contact {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .contact .infos {
+      max-width: 70%;
+      padding: 10rem 5rem; 
+      margin: auto;
+   }
+   
+   .contact .email form { padding: 10rem 5rem; }
+   #content2 p{ font-size: 3.0rem; }
+
+   #content3 address {
+      max-width: 100%;
+      font-size: 2.2rem;
+   }
+
+   #txt-white, #txt-yellow, #txt-blue {
+      font-size: 3.0rem;
+      line-height: 4.0rem;
+   }
+
+/* ------------------------ CONTACT-FORM ------------------------ */
+   .container-contact .email {
+      width: 100%;
+      margin: auto;
+   }
+
+   .contact .email form {
+      padding: 3rem;
+      margin-bottom: 7rem;
+   }
+
+   .contact .email input, .contact .email textarea, .contact .email #btn-mail { margin-bottom: 4rem; }
+}
+
+@media (max-width:650px) {
+   html {font-size: 40%;}
+   body {overflow-x: hidden; background: none;}
+   .home {
+      background-image: url(../imagens/mobile/s1-mobile.jpg);
+      background-attachment: scroll;
+      background-size: 100% 100%;
+      background-position:center;
+   }
+
+/* ------------------------ HOME ------------------------ */
+   .header-home { flex-flow: row-reverse; }
+   
+   .logo {
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+      margin-right: 40px;
+      align-items: center;
+   }
+
+   .title h1 {
+      width: 95%;
+      margin: auto;
+      margin-top: 0px; 
+      text-align: center;
+      font-size: 35px;
+   }
+
+   .description {
+      margin-top: 100px;
+      width: 80vw;
+      text-align: center;
+   }
+
+   .btn-now {
+      width: 220px;
+      height: 43px;
+      font-size: 12px;
+      margin-top: 100px;
+   }
+
+   /* ------------------------ ABOUT ------------------------ */
+   .about { padding-bottom: 3rem; }
+   .about h2 { padding: 2rem; }
+   .container-about { padding: 5rem; }
+   
+   .container-about #box-about p {
+      font-size: 2.1rem;
+      line-height: 2.7rem;
+      padding: 6rem;
+   }
+
+
+   .about #box-about .ciclos-ap {
+      flex-direction: row;
+      padding-bottom: 6rem;
+   }
+   
+   .about #box-about .ciclos-ap .ciclo { 
+      padding: 0 2rem;;
+   }
+   
+   
+   .about #box-about .ciclos-ap .ciclo p {
+      font-size: 2rem;
+      text-align: left;
+      padding: 0rem;
+      line-height: 3.0rem;
+   }
+   
+   .about #box-about .ciclos-ap img {
+      width: 50px;
+   }
+   
+   .about #box-about .ciclos-ap .seta img {
+      width: 18px;
+   }
+
+
+
+
+
+
+/* ------------------------ SERVICE/DIFERENCIAIS ------------------------ */
+   .cards-service, .cards-diff { padding-top: 2rem; }
+   .card-service, .card-diff {
+      width: 90%;
+      margin-right: 0;
+      margin-bottom: 6rem;
+   }
+
+   .card-diff {
+      width: 100%;
+      height: 80rem; 
+   }
+
+   .service h2, .diff h2 {
+      width: auto;
+      padding:0 0 3rem 7rem;
+      font-size: 5.5rem;
+   }
+
+   .diff h2 { padding-left: 5rem; }
+   
+   section.card-service h3,section.card-diff h3 {
+      width: auto;
+      font-size: 4rem;
+   }
+   
+   .cards-description-service, .cards-description-diff {
+      width: 80%;
+      height: 100%;
+      margin-top: 4%;
+      font-size: 2.5rem;
+      line-height: 3rem;
+   } 
+
+   section.card-diff h3 {
+      max-width: 80%;
+      padding-right: 5rem;
+      padding-left: 5rem;
+   }
+
+   .card-diff:last-child { margin-right: 0rem; }
+
+/* ------------------------ CONTACT-INFOS ------------------------ */
+   .container-contact .infos {
+      min-width: 0%;
+      max-width: 85%;
+      width: 85%;
+      padding-left: 0rem;
+      padding-right: 0rem;
+      margin: auto;
+   }
+
+/* ------------------------ CONTACT-FORM ------------------------ */
+   .container-contact .email {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+
+   .contact .email form {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      margin: 0;
+      padding: 0;
+   }
+
+   #content2 p{ font-size: 2.0rem; }
+   #content3 address { font-size: 1.8rem; }
+
+   #txt-white, #txt-yellow, #txt-blue {
+      font-size: 2.0rem;
+      line-height: 3.0rem;
+   }
+}
+
+@media (max-width:430px) { 
+   .about #box-about .ciclos-ap .ciclo { 
+      padding: 1.5rem;
+      
+   }
+   
+   
+   .about #box-about .ciclos-ap .ciclo p {
+      font-size: 1.705rem;
+      text-align: left;
+      padding: 0rem;
+      line-height: 3.0rem;
+   }
+   
+   .about #box-about .ciclos-ap img {
+      width: 30px;
+   }
+   
+   .about #box-about .ciclos-ap .seta img {
+      width: 10px;
+   }
+}

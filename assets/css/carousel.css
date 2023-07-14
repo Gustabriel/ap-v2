@@ -1,0 +1,107 @@
+.img-wrapper {
+    max-width: 100%;
+    height: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+    .img-wrapper {
+        height: 23vw;
+    }
+}
+
+.carousel-inner{
+    padding: 1em;
+}
+
+.card{
+    margin: 0 .5em;
+    border-radius: .3em;
+    box-shadow:  2px 6px 8px 0 rgba(22,22,26,.18);
+}
+
+.carousel-control-prev, .carousel-control-next{ 
+    width: 6vh;
+    height: 6vh;
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%s);
+    opacity: .5;
+    margin: 0.8em;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover { 
+    opacity: .9;
+}
+
+
+/* ALTER FORA DO BOOTS */
+/* buttons */
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 26rem;
+    max-height: 26rem;
+    text-align: center;
+ }
+ 
+ .btn-buy {
+    width: 20rem;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #e80809;
+    font-size: 2.0rem;
+    font-weight: 600;
+    background-color: #fbb701;
+    border-radius: 3rem;
+    border: none;
+    transition: 0.5s ease-in-out;
+    box-shadow:  2px 6px 8px 0 rgba(22,22,26,.18);
+ 
+ }
+ 
+ .btn-buy:hover {
+    opacity: 0.7;
+    color: #fbb701;
+    background-color: #e80809 ;
+    cursor: pointer;
+ }
+
+
+ /* CARD TITLE */
+ .card-title { 
+    text-align: center;
+    text-transform: uppercase;
+    color: #e80809;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 2rem;
+ }
+
+ .card-text { 
+    padding: 0 3rem;
+ }
+
+
+ 
