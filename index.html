@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="assets/imagens/mobile/favicon_io/favicon.ico">
+   
+   <!-- meta tags de aprimoramento do SEO do site -->
+   <meta name="keywords" content="digital, eletricista, mídia, marketing, propaganda">
+   <meta name="robots" content="index,follow">
+   <meta name="description" content="Empresa especializada em vendas e instalações eletricas.">
+   <!--FONTS-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+   <!-- Estilos CSS -->
+   <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/>
+   <link rel="stylesheet" href="assets/css/carousel.css" />
+   <link rel="stylesheet" href="assets/css/apolinario-style.css">
+   <link rel="stylesheet" href="assets/css/apolinario-mediaquery.css">
+   <link rel="stylesheet" href="assets/css/menu-mobile.css">
+   <title>Apolinario Instalações</title>
+</head>
+<body>
+   <!--Primeira section que é a home, onde vai ficar a primeira imagem que o cliente vai ver da empresa-->
+   <section class="home" id="inicio">
+
+      <div id="bg-header-home">
+         <header class="header-home">
+            <!--Cabeçalho com logo e o menu da página-->
+            <div class="logo">
+               <!--Usando a tag picture para responsividade, quando o site atingir uma largura de 1310px o logo será trocado para um logo menor-->
+               <picture>
+                  <source media="(max-width: 1310px)" srcset="assets/imagens/mobile/logo.png">
+                  <img src="assets/imagens/web/logo.png" alt="Logo Apolinario" title="Apolinario">
+               </picture>
+            </div>
+            <nav class="nav">
+            <!--Menu mobile hamburger-->
+               <button aria-label="Abrir menu" aria-haspopup="true" aria-expanded="false" class="btn-mobile">
+                  <span id="btn-menu"></span>
+               </button>
+            <!--Menu/Menu mobile-->
+               <ul class="menu" role="menu">
+                  <li><a href="#inicio">Inicio</a></li>
+                  <li><a href="#sobre">A Empresa</a></li>
+                  <li><a href="#servicos">Serviços</a></li>
+                  <li><a href="#produtos">Produtos</a></li>
+                  <li class="contato"><a href="#contato">Contatos</a></li>
+
+               </ul>
+            </nav>
+            <div id="btn-contato" class="menu">
+               <a href="#contato">Contatos</a>
+            </div>
+         </header>
+      </div>
+
+         <!-- Sessão dentro da home, onde está localizado o titulo do site/breve descrição e um button para entrar em contato com a empresa-->
+      <section class="hero">
+         <div class="title">
+            <h1>Padrões elétricos de instalações</h1>
+         </div>
+         <div class="description">
+            <p>Fazemos planejamentos e instalações de todos os tipos de <span>projetos elétricos, </span></p>
+            <p><span>colunas e ligacões</span> com ART e CREA, ligação de caixas de luz no padrão Enel</p>
+         </div>
+         <div class="button-contact-now">
+            <button type="button" class="btn-now"><a href="https://api.whatsapp.com/send?phone=5511978113072&text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20de%20instalação%20elétrica." target="_blank">Entre em contato agora</a></button>
+         </div>
+      </section>
+   </section>
+
+         <!-- Sessão onde é abordado um pouco sobre a empresa, com um texto dentro de uma box-->
+   <section class="about" id="sobre">
+      <div class="logo-about">
+         <picture>
+            <source media="(max-width: 1310px)" srcset="assets/imagens/mobile/logo.png">
+            <img src="assets/imagens/web/logo-menu.png" alt="Logo Apolinario" title="Apolinario">
+         </picture>
+      </div>
+      <div class="container-about">
+         
+
+         <div id="box-about"> <!--  Adicionar texto sobre a empresa/ o modo dela trabalhar -->
+           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+            <div class="ciclos-ap">
+               <div class="ciclo">
+                  <img src="assets/imagens/web/ciclos/projetando.png" alt="">
+                  <p>Projetamos</p>
+               </div>
+               <div class="seta">
+                  <img src="assets/imagens/web/ciclos/seta-direita.png" alt="">
+               </div>
+               <div class="ciclo">
+                  <img src="assets/imagens/web/ciclos/vendendo.png" alt="">
+                  <p>Vendemos</p>
+               </div>
+               <div class="seta">
+                  <img src="assets/imagens/web/ciclos/seta-direita.png" alt="">
+               </div>
+               <div class="ciclo">
+                  <img src="assets/imagens/web/ciclos/instalando.png" alt="">
+                  <p>Instalamos</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+         <!-- Sessão onde é apresentado o serviço da empresa, trazer 3 cards com titulo e descrição-->
+         <!--  Adicionar aos cards um texto sobre os serviços que a empresa presta -->
+   <section class="service" id="servicos">
+         <div class="container-service">
+            <div class="title">
+               <h2>Serviços</h2>
+            </div>
+            
+            <div class="cards-service">
+               <!--Primeiro Card-->
+               <section class="card-service" id="card1-service">
+                  <h3>Postes de energia</h3>
+                  <div class="cards-description-service">
+                     <p class="p1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                     <p class="p2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                  </div>
+               </section>
+
+               <!--Segundo Card-->
+               <section class="card-service" id="card2-service">
+                  <h3>Caixas de Luz</h3>
+                  <div class="cards-description-service">
+                     <p class="p1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                     <p class="p2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                  </div>
+               </section>
+
+               <!--Terceiro Card-->
+               <section class="card-service" id="card3-service">
+                  <h3>Fiações Elétricas</h3>
+                  <div class="cards-description-service">
+                     <p class="p1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                     <p class="p2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                  </div>
+               </section>
+            </div>
+         </div>   
+   </section>
+
+   <!--Sessão apresentando os Produtos da empresa, usando o métodos de carrosel cards-->
+   <section class="diff" id="produtos">
+      <div class="h2-prod"> <h2>Produtos</h2></div>
+      <div class="container-diff">
+         <div
+         id="carouselExampleControlsNoTouching"
+         class="carousel "
+         data-bs-touch="false"
+      >
+         <div class="carousel-inner">
+         <div class="carousel-item active">
+            <div class="card">
+               <div class="img-wrapper">
+               <img src="assets/imagens/img/71RoC5iyt7S._AC_SX522_.jpg" alt="..." />
+               </div>
+               <div class="card-body">
+               <h5 class="card-title">Fio Cabinho Flexível Azul</h5>
+               <p class="card-text">
+                  Fio Cabinho Sil Flexível 2,5 mm 100m Azul, csondutores de cobre eletrolítico flexível com classe 5 de encordoamento
+
+               </p>
+               <a href="https://api.whatsapp.com/send?phone=5511978113072&text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20de%20produtos." target="_blank" class="btn btn-buy">Solicitar orçamento</a>
+               </div>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <div class="card">
+               <div class="img-wrapper">
+               <img
+                  src="assets/imagens/img/caixa-de-luz-em-polipropileno-4x2-retangular-amarela-force-line-1366102-foto-20190926113946802_242112_A.png"
+                  alt="imagem do produto"
+               />
+               </div>
+               <div class="card-body">
+               <h5 class="card-title">Caixa de Luz em Polipropileno</h5>
+               <p class="card-text">
+                  Tamanho 4x2, Retangular, Amarela da Forceline, ela é perfeito para uso em instalações elétricas residenciais e comerciais.
+               </p>
+               <a href="https://api.whatsapp.com/send?phone=5511978113072&text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20de%20produtos." target="_blank" class="btn btn-buy">Solicitar orçamento</a>
+               </div>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <div class="card">
+               <div class="img-wrapper">
+               <img
+                  src="assets/imagens/img/D_NQ_NP_871096-MLB45062033710_032021-O.jpeg"
+                  alt="imagem do produto"
+               />
+               </div>
+               <div class="card-body">
+               <h5 class="card-title">Caixa Montada para 01 Medidor</h5>
+               <p class="card-text">
+                  Para Muro Lateral Acesso Frontal ao Disjuntor Strahl 3091/MB16, fechamento com lacre da concessionária;
+               </p>
+               <a href="https://api.whatsapp.com/send?phone=5511978113072&text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20de%20produtos." target="_blank" class="btn btn-buy">Solicitar orçamento</a>
+               </div>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <div class="card">
+               <div class="img-wrapper">
+               <img
+                  src="assets/imagens/img/disjuntor_2x63_curva_c_steck_57_1_1f996c67cb4c0f3e8d1097c134470cd4.jpeg"
+                  alt="imagem do produto"
+               />
+               </div>
+               <div class="card-body">
+               <h5 class="card-title">Disjuntor Bipolar Série Sd62</h5>
+               <p class="card-text">
+                  São equipamentos de alta tecnologia que protegem fios e cabos elétricos contra curto-circuitos e sobrecargas de energia.
+               </p>
+               <a href="https://api.whatsapp.com/send?phone=5511978113072&text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20de%20produtos." target="_blank" class="btn btn-buy">Solicitar orçamento</a>
+               </div>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <div class="card">
+               <div class="img-wrapper">
+               <img
+                  src="assets/imagens/img/disjuntor_363_curva_c_steck_79_1_8486b6679cb38dc787777caf5323da54.jpeg"
+                  alt="imagem do produto"
+               />
+               </div>
+               <div class="card-body">
+               <h5 class="card-title">Disjuntor tripolar 63A</h5>
+               <p class="card-text">
+                  Usados para proteção de circuitos em geral que também possa ter cargas de natureza indutiva.
+               </p>
+               <a href="https://api.whatsapp.com/send?phone=5511978113072&text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20de%20produtos." target="_blank" class="btn btn-buy">Solicitar orçamento</a>
+               </div>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <div class="card">
+               <div class="img-wrapper">
+               <img
+                  src="assets/imagens/img/eletroduto-corrugado-em-pvc-tigreflex-25mm-com-50-metros-amarelo-tigre-1036607-foto-20181205164049449_86720_A.png"
+                  alt="imagem do produto"
+               />
+               </div>
+               <div class="card-body">
+               <h5 class="card-title">Eletroduto Corrugado em Pvc</h5>
+               <p class="card-text">
+                  Tamanho de 25mm com 50 Metros de comprimento, é produzido em PVC flexível na cor Amarela.
+               </p>
+               <a href="https://api.whatsapp.com/send?phone=5511978113072&text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20de%20produtos." target="_blank" class="btn btn-buy">Solicitar orçamento</a>
+               </div>
+            </div>
+         </div>
+         </div>
+         <button
+         class="carousel-control-prev"
+         type="button"
+         data-bs-target="#carouselExampleControlsNoTouching"
+         data-bs-slide="prev"
+         >
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+         </button>
+         <button
+         class="carousel-control-next"
+         type="button"
+         data-bs-target="#carouselExampleControlsNoTouching"
+         data-bs-slide="next"
+         >
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+
+      </div>
+   </section>
+
+   <!--Sessão final apresentando os contatos da empresa e um formulário para enviar uma mensagem-->
+   <section class="contact" id="contato">
+      <div class="container-contact">
+         <section class="infos">
+            <!--Box contendo icone da empresa, facebook e linkedin -->
+            <div id="content1">
+               <!--novamente usando a tag picture para responsividade, quando o site atingir uma largura de 1200px o logo será trocado para um logo menor-->
+               <picture>
+                  <source media="(max-width: 1200px)" srcset="assets/imagens/mobile/logo.png">
+                  <img src="assets/imagens/web/logo.png" alt="Logo da Apolinario" title="Apolinario">
+               </picture>
+               <div class="redes">
+                  <a href="https://www.facebook.com/">
+                     <img src="./assets/imagens/web/icon-face.png" alt="Logo do facebook" id="logo-face">
+                  </a>
+                  <a href="https://api.whatsapp.com/send?phone=5511978113072&text=Olá!%20Vim%20do%20seu%20site.%20Gostaria%20de%20fazer%20um%20orçamento." target="_blank">
+                     <img src="./assets/imagens/web/icon-wpp.png" alt="Logo do Whatsapp">
+                  </a>
+               </div>
+            </div>
+
+            <!--Box contendo o email e telefone da empresa-->
+            <div id="content2">
+               <div class="msg">
+                  <a href="mailto:ciceroapls61@gmail.com"><img src="./assets/imagens/web/icon-msg.png" alt="icone de carta"></a>
+                  <p>ciceroapls61@gmail.com</p>
+               </div>
+               <div class="tel">
+                  <a href="https://api.whatsapp.com/send?phone=5511978113072&text=Olá!%20Vim%20do%20seu%20site.%20Gostaria%20de%20fazer%20um%20orçamento." target="_blank"><img src="./assets/imagens/web/icon-tel.png" alt="icone de telefone"></a>
+                  <p>(11) 2691-7681</p>
+               </div>
+            </div>
+
+            <!--Box contendo o endereço da empresa-->
+            <div id="content3">
+               <a href="https://www.google.com/maps/place/R.+Pacheco+Jord%C3%A3o+-+Jardim+Lisboa,+S%C3%A3o+Paulo+-+SP,+03675-020/@-23.51862,-46.4991391,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce60eaa22cdce5:0x82c5c93710127697!8m2!3d-23.51862!4d-46.4965642!16s%2Fg%2F1ymvdyv57?entry=ttu" target="_blank"><img src="./assets/imagens/web/icon-gps.png" alt="icone de localização"></a>
+               <!--Usada a tag address para referenciar que se trata de um endereço-->
+               <div><address>Rua Pacheco Jordão - Jardim Lisboa</address>
+               <address>CEP: 03675-020 - São Paulo - SP </address></div>
+               
+            </div>
+
+            <!--Box contendo mais informações, de contato e sobre a empresa-->
+            <!--Descrever as responsabilidades da empresa, como e com o que ela trabalha e se quiser acrescentar um pouco sobre o técnico-->
+            <div id="content4">
+               <div id="txt-white">
+                  <p>
+                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                  </p>
+               </div>
+         
+               <div id="txt-yellow">
+                  <p>
+                     gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et a
+                  </p> 
+               </div>
+            </div>            
+         </section>
+
+         <!--Section que contém um formulário para o cliente enviar a empresa, com seu nome, email, o quanto deseja investir e uma breve mensagem-->
+         <section class="email">
+            <form action="https://formsubmit.co/a26cf714cdec6d7ceb478255530c930d" method="POST">
+               <input type="text" name="nome" id="nome" placeholder="Nome" required autocomplete="off">
+               <input type="email" name="email" id="email" placeholder="E-mail" required autocomplete="off">
+               <input type="tel" name="telefone" id="telefone" placeholder="Telefone/Whatsapp" required autocomplete="off">
+               <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+               <button type="submit" id="btn-mail" >Enviar Mensagem</button>
+               <input type="hidden" name="_next" value="http://127.0.0.1:5500/assets/emailsucess.html">
+            </form>
+         </section>
+      </div>
+   </section>
+   <!--Scripts-->
+   <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/script/carousel.js"></script>
+   <script src="assets/script/mobile-menu.js"></script>
+</body>
+</html>
